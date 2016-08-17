@@ -1,0 +1,99 @@
+.jumbotron{
+    background-color: #629632;
+    color:#ffffff;
+    padding: 100px 25px;
+}
+.green{
+    background-color: green;
+    color: white;
+}
+.red{
+    background-color: darkred;
+    color: white;
+}
+.navbar {
+    margin-bottom: 0;
+    background-color: #4A7023;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 2px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #4A7023 !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+body{
+    padding-top: 20px;
+}
+
+.container-fluid text-center bg-gray{
+    padding-top: 20px;
+}
+
+.stylish-panel {
+    padding: 20px 0;
+    text-align: center;
+}
+.stylish-panel > div > div{
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: 0.2s;
+}
+.stylish-panel > div:hover > div{
+    margin-top: -10px;
+    border: 1px solid rgb(200, 200, 200);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+    background: rgba(200, 200, 200, 0.1);
+    transition: 0.5s;
+}
+
+.stylish-panel > div:hover img {
+    border-radius: 50%;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.whiteback{
+    background-color: white;
+}
+
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #629632;
+}
+
+.carousel-indicators li {
+    border-color: #629632;
+}
+
+.carousel-indicators li.active {
+    background-color: #629632;
+}
+
+.item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+}
+
+.item span {
+    font-style: normal;
+}
